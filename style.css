@@ -1,0 +1,130 @@
+.first-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 91px;
+  background-color: #ffffff;
+}
+
+.container-logo {
+  width: 147px;
+  align-items: center;
+}
+
+.container-logo__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23px;
+  height: 23px;
+  top: 34px;
+  left: 100px;
+}
+
+.container-logo__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  gap: 10px;
+}
+
+.container-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  width: 588px;
+  height: 11px;
+  font-family: Roboto;
+  color: #707c87;
+}
+
+.container-menu__blue {
+  color: #2c36f2;
+}
+
+.container-login {
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  height: 11px;
+}
+
+.container-login__image {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 20px;
+  height: 22px;
+}
+
+.container-login__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-image: url("img/Rectangle.png");
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.main-container__title {
+  font-family: Roboto;
+  font-size: 54px;
+  font-weight: 700;
+  color: #f6f7ff;
+}
+
+.main-container__description {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  color: #e0e1ea;
+}
+
+.main-container__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f6f7ff;
+  width: 234px;
+  height: 53px;
+  border: 0;
+  border-radius: 4px;
+}
+
+.main-container__button--text {
+  display: flex;
+  color: #707c87;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.main-container-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 341px;
+  height: 216px;
+  width: 50%;
+}
