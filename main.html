@@ -5,52 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Project</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <div class="first-wrapper">
-        <div class="container-logo">
-          <p class="container-logo__text">
-            <img
-              class="container-logo__image"
-              src="img/logo.png"
-              alt="Logo"
-            />Чіп Чендж
-          </p>
-        </div>
-        <div class="container-menu">
-          <p>Послуги</p>
-          <p class="container-menu__blue">
-            <a href="converter.html" target="_blank">Конвертер валют</a>
-          </p>
-          <p>Контакти</p>
-          <p>Задати питання</p>
-        </div>
+    <header class="logo-wrapper">
+      <div class="container-logo">
+        <a class="container-logo__text" href="main.html">
+          <img class="container-logo__image" src="img/logo.png" alt="Logo" />Чіп
+          Чендж
+        </a>
+      </div>
+      <ul class="container-menu">
+        <li>Послуги</li>
+        <li>
+          <a
+            class="container-menu__active"
+            href="converter.html"
+            target="_blank"
+            >Конвертер валют</a
+          >
+        </li>
+        <li>Контакти</li>
+        <li>Задати питання</li>
+      </ul>
 
-        <div class="container-login">
-          <p class="container-login__text">
-            <img
-              class="container-login__image"
-              src="img/login.png"
-              alt="Login"
-            />Особистий кабінет
-          </p>
-        </div>
+      <div class="container-login">
+        <a class="container-login__text" href="#">
+          <img
+            class="container-login__image"
+            src="img/login.png"
+            alt="Login"
+          />Особистий кабінет
+        </a>
       </div>
     </header>
-    <main>
-      <div class="main-wrapper">
-        <div class="main-container">
-          <span class="main-container__title">Чіп Чендж</span>
-          <p class="main-container__description">Обмінник валют - навчальний</p>
-          <button class="main-container__button">
-            <p class="main-container__button--text">Конвертер валют</p>
-          </button>
-        </div>
-        <div class="main-container-image">
-          <img src="img/card.png" alt="Card" />
-        </div>
+
+    <div class="main-wrapper">
+      <div class="sap-container">
+        <span class="sap-container__title">Чіп Чендж</span>
+        <p class="sap-container__description">Обмінник валют - навчальний</p>
+        <button class="sap-container__button">
+          <p class="sap-container__button--text">Конвертер валют</p>
+        </button>
       </div>
-    </main>
+      <img src="img/card.png" alt="Card" />
+    </div>
+
+    <div class="converter-wrapper">
+      <div class="converter-container">
+        <span class="converter-container__title">Конвертер валют</span>
+        <span class="converter-container__description">
+          Переважна діяльність банківської групи за останні чотири звітні
+          квартали становить 50 і більше відсотків.
+        </span>
+        <button class="converter-container__button">
+          <p class="converter-container__button--text">Конвертувати валюту</p>
+        </button>
+      </div>
+
+      <img src="img/hand_with_card.png" alt="Card" />
+    </div>
+    <footer class="footer-wrapper">
+      <div class="footer-container-logo">
+        <a class="footer-container-logo__text" href="main.html"
+          ><img
+            class="footer-container-logo__image"
+            src="img/logo.png"
+            alt="Logo"
+          />Чіп Чендж
+        </a>
+        <pre class="footer-container-logo__description">
+04128, м.Київ, вул. Хрещатик, 19 
+Ліцензія НБУ №156 
+Ⓒ ПАТ ЧіпЧендж, 2019-2023
+        </pre>
+      </div>
+      <ul class="footer-container-menu">
+        <li>Послуги</li>
+        <li>Конвертер валют</li>
+        <li>Контакти</li>
+        <li>Задати питання</li>
+      </ul>
+      </ul>
+
+       <div class="footer-container-support">
+        <a class="footer-container-support__text" href="main.html"><img
+            class="footer-container-support__image"
+            src="img/phone.png"
+            alt="phone"/>
+          3773
+        </a>
+        
+        <p class="footer-container-support__description">
+          Цілодобова підтримка
+        </p>
+      </div>
+
+      <div class="footer-container-number">
+        <a class="footer-container-number__text" href="main.html"><img
+            class="footer-container-number__image"
+            src="img/telephone.png"
+            alt="phone"/>
+          8 800 111 22 33
+        </a>
+        
+        <pre class="footer-container-number__description">
+Безкожтовно для дзвінків 
+в межах України
+        </pre>
+      </div>
+
+      <div class="footer-container-icons">
+        <img class="footer-container-icons__facebook" src="img/facebook.png">
+        <img class="footer-container-icons__insta" src="img/insta.png">
+        <img class="footer-container-icons__twitter" src="img/twitter.png">
+        <img class="footer-container-icons__youtube" src="img/youtube.png">
+
+      </div>
+    </footer>
   </body>
 </html>
