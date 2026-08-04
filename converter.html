@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="logo-wrapper">
+      <div class="container-logo">
+        <a class="container-logo__text" href="index.html" target="_blank">
+          <img class="container-logo__image" src="img/logo.png" alt="Logo" />Чіп
+          Чендж
+        </a>
+      </div>
+      <ul class="container-menu">
+        <li>Послуги</li>
+        <li>
+          <a
+            class="container-menu__active"
+            href="converter.html"
+            target="_blank"
+            >Конвертер валют</a
+          >
+        </li>
+        <li>Контакти</li>
+        <li>Задати питання</li>
+      </ul>
+
+      <div class="container-login">
+        <a class="container-login__text" href="#">
+          <img
+            class="container-login__image"
+            src="img/login.png"
+            alt="Login"
+          />Особистий кабінет
+        </a>
+      </div>
+    </header>
+
+    <div class="main-wrapper">
+      <div class="sap-container">
+        <span class="sap-container__title">Чіп Чендж</span>
+        <p class="sap-container__description">Обмінник валют - навчальний</p>
+        <button class="sap-container__button">
+          <p class="sap-container__button--text">Конвертер валют</p>
+        </button>
+      </div>
+      <img class="sap-container__image" src="img/card.png" alt="Card" />
+    </div>
+
+    <div class="exchange-wrapper">
+      <div class="sap-exchange-container">
+        <p class="sap-exchange-container__title">Конвертер валют</p>
+        <div class="sap-exchange-container__first-form">
+          <div>
+            <p class="sap-exchange-container__description">В мене є:</p>
+            <form class="first-form">
+              <input class="first-form__number" type="text" />
+              <select class="first-form__volute">
+                <option>UAH</option>
+                <option>USD</option>
+                <option>EUR</option></select
+              ><br />
+              <input class="first-form__calendar" type="date" />
+            </form>
+          </div>
+          <img
+            class="sap-exchange-container__form--image"
+            src="img/arrows.png"
+          />
+          <div class="sap-exchange-container__second-form">
+            <p class="sap-exchange-container__description">Хочу придбати:</p>
+            <form class="second-form">
+              <input class="second-form__number" type="text" />
+              <select class="second-form__volute">
+                <option>UAH</option>
+                <option>USD</option>
+                <option>EUR</option></select
+              ><br />
+              <div class="second-form__container-button">
+                <button
+                  class="second-form__container-button--button"
+                  type="button"
+                >
+                  Зберегти результат
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="history-wrapper">
+      <div class="history-container">
+        <div class="intro-container">
+          <p class="intro-container__title">Історія конвертації</p>
+          <button class="intro-container__button" type="button">
+            Очистити історію
+          </button>
+        </div>
+        <div class="transactions">
+          <div class="first-column-transactions">
+            <div class="column-transactions">
+              <p class="column-transaction__date">25.11.2020</p>
+              <p class="column-transaction__quantity">1000 UAH</p>
+              <img class="column-transaction__image" src="img/arrow.png" />
+              <p class="column-transaction__quantity">36,65 USD</p>
+            </div>
+
+            <div class="column-transactions">
+              <p class="column-transaction__date">25.11.2020</p>
+              <p class="column-transaction__quantity">1000 UAH</p>
+              <img class="column-transaction__image" src="img/arrow.png" />
+              <p class="column-transaction__quantity">36,65 USD</p>
+            </div>
+
+            <div class="column-transactions">
+              <p class="column-transaction__date">25.11.2020</p>
+              <p class="column-transaction__quantity">1000 UAH</p>
+              <img class="column-transaction__image" src="img/arrow.png" />
+              <p class="column-transaction__quantity">36,65 USD</p>
+            </div>
+
+            <div class="column-transactions">
+              <p class="column-transaction__date">25.11.2020</p>
+              <p class="column-transaction__quantity">1000 UAH</p>
+              <img class="column-transaction__image" src="img/arrow.png" />
+              <p class="column-transaction__quantity">36,65 USD</p>
+            </div>
+          </div>
+          <div class="second-column-transactions">
+            <div class="column-transactions">
+              <p class="column-transaction__date">25.11.2020</p>
+              <p class="column-transaction__quantity">1000 UAH</p>
+              <img class="column-transaction__image" src="img/arrow.png" />
+              <p class="column-transaction__quantity">36,65 USD</p>
+            </div>
+
+            <div class="column-transactions">
+              <p class="column-transaction__date">25.11.2020</p>
+              <p class="column-transaction__quantity">1000 UAH</p>
+              <img class="column-transaction__image" src="img/arrow.png" />
+              <p class="column-transaction__quantity">36,65 USD</p>
+            </div>
+
+            <div class="column-transactions">
+              <p class="column-transaction__date">25.11.2020</p>
+              <p class="column-transaction__quantity">1000 UAH</p>
+              <img class="column-transaction__image" src="img/arrow.png" />
+              <p class="column-transaction__quantity">36,65 USD</p>
+            </div>
+
+            <div class="column-transactions">
+              <p class="column-transaction__date">25.11.2020</p>
+              <p class="column-transaction__quantity">1000 UAH</p>
+              <img class="column-transaction__image" src="img/arrow.png" />
+              <p class="column-transaction__quantity">36,65 USD</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-wrapper">
+      <div class="footer-container-logo">
+        <a class="footer-container-logo__text" href="index.html" target="_blank"
+          ><img
+            class="footer-container-logo__image"
+            src="img/logo.png"
+            alt="Logo"
+          />Чіп Чендж
+        </a>
+        <pre class="footer-container-logo__description">
+04128, м.Київ, вул. Хрещатик, 19 
+Ліцензія НБУ №156 
+Ⓒ ПАТ ЧіпЧендж, 2019-2023
+        </pre>
+      </div>
+      <ul class="footer-container-menu">
+        <li><a class="footer-container-menu__options" href="#">Послуги</a></li>
+        <li>
+          <a
+            class="footer-container-menu__options"
+            href="converter.html"
+            target="_blank"
+            >Конвертер валют</a
+          >
+        </li>
+        <li><a class="footer-container-menu__options" href="#">Контакти</a></li>
+        <li>
+          <a class="footer-container-menu__options" href="#">Задати питання</a>
+        </li>
+      </ul>
+
+      <div class="footer-container-support">
+        <a class="footer-container-support__text" href="#"
+          ><img
+            class="footer-container-support__image"
+            src="img/phone.png"
+            alt="phone"
+          />
+          3773
+        </a>
+
+        <p class="footer-container-support__description">
+          Цілодобова підтримка
+        </p>
+      </div>
+
+      <div class="footer-container-number">
+        <a class="footer-container-number__text" href="#"
+          ><img
+            class="footer-container-number__image"
+            src="img/telephone.png"
+            alt="phone"
+          />
+          8 800 111 22 33
+        </a>
+
+        <pre class="footer-container-number__description">
+Безкожтовно для дзвінків 
+в межах України
+        </pre>
+      </div>
+
+      <ul class="footer-container-icons">
+        <li>
+          <img
+            class="footer-container-icons__facebook"
+            src="img/facebook.png"
+          />
+        </li>
+        <li>
+          <img class="footer-container-icons__insta" src="img/insta.png" />
+        </li>
+        <li>
+          <img class="footer-container-icons__twitter" src="img/twitter.png" />
+        </li>
+        <li>
+          <img class="footer-container-icons__youtube" src="img/youtube.png" />
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
